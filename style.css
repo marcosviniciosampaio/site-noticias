@@ -21,7 +21,7 @@ body {
 
 }
 
-body.menu-open::before{
+body.escurecer::before{
     content: "";
     position:fixed;
     height: 100vh;
@@ -68,8 +68,14 @@ body.menu-open::before{
     display: flex;
     flex-direction: column;
     gap:1.5rem; 
+    right: -16rem;
+
+    transition: 0.7s;
 }
 
+.header-mobile nav.abrir{
+    right: 0rem;
+}
 .primeira-secao{
     margin-bottom: 4rem;
 }
